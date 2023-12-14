@@ -35,13 +35,14 @@ class Que{
     //뒷 큰수 찾기!
     fun checkMax(i : Int):Int{
         for(idx in front..rear){
+            //여기서 효율적인 방법을 찾아야할꺼 같다.
             if(i<que[idx]) return que[idx]
         }
         return -1
     }
 
     companion object{
-        const val MAX_SIZE = 1000000
+        const val MAX_SIZE = 2000000
     }
 }
 class Solution {
