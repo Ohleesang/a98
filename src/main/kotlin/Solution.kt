@@ -42,7 +42,8 @@ class Que{
     }
 
     companion object{
-        const val MAX_SIZE = 2000000
+        const val MAX_SIZE = 1000001
+        //1,000,000
     }
 }
 class Solution {
